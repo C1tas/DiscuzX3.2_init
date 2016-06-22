@@ -91,7 +91,7 @@ $_config['db']['common']['slave_except_table'] = '';
 $_config['memory']['prefix'] = 'discuz_';
 
 /* reids设置, 需要PHP扩展组件支持, timeout参数的作用没有查证 */
-$_config['memory']['redis']['server'] = '';
+$_config['memory']['redis']['server'] = '127.0.0.1';
 $_config['memory']['redis']['port'] = 6379;
 $_config['memory']['redis']['pconnect'] = 1;
 $_config['memory']['redis']['timeout'] = 0;
